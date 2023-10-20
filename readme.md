@@ -1,0 +1,23 @@
+## Бот для автоматического бекапа данных TradeOn
+Каждый день в заданное время бот создаёт архив из папок Data, DataBackups, MaFiles и отправляет вам.
+Если что-то случится с сервером вы не потеряете данные о покупках и сможете откатиться к ним в любой момент.
+
+[Пример](https://i.imgur.com/VikYyOd.png)
+
+## Устновка
+1. Установите python 3.10+
+2. Установите зависимости, напишите в консоли `pip install aiogram==2.25.1 loguru`
+3. В файле databackups.py в 17 строке впишите BOT_TOKEN от @BotFather (!! Важно, это должен быть не токен из TradeOn бота, создайте новый)
+4. В 19 строке можете вписать своё время для бекапа
+5. Запустите файл databackups.py
+6. Отправьте вашему боту Admin code который был показан в консоли при старте программы. (6 цифр)
+
+## Ошибки
+
+_aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running_
+
+**Вы поставили на один токен 2 бота, замените BOT_TOKEN**
+
+_No admins found_
+
+**Вы не добавили себя в белый список, для этого введите Admin code который был показан при старте бота**
