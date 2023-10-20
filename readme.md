@@ -4,13 +4,15 @@
 
 ![image](https://github.com/makarworld/TradeOnBackups/assets/58076271/8ffe8b32-970b-4f98-ade5-1e0ed104dbed)
 
-## Устновка
+## Установка
 1. Установите python 3.10+
 2. Установите зависимости, напишите в консоли `pip install aiogram==2.25.1 loguru`
-3. В файле databackups.py в 17 строке впишите BOT_TOKEN от @BotFather (!! Важно, это должен быть не токен из TradeOn бота, создайте новый)
+3. В файле `databackups.py` в 17 строке впишите `BOT_TOKEN` от @BotFather (!! Важно, это должен быть не токен из TradeOn бота, создайте новый)
 4. В 19 строке можете вписать своё время для бекапа
-5. Запустите файл databackups.py
+5. Запустите файл `databackups.py`
 6. Отправьте вашему боту Admin code который был показан в консоли при старте программы. (6 цифр)
+![image](https://github.com/makarworld/TradeOnBackups/assets/58076271/3b8c4f1f-f9c1-497a-8819-4486b8f054f1)
+![image](https://github.com/makarworld/TradeOnBackups/assets/58076271/a3eca241-6d5a-4afa-80fe-1d252f8d9724)
 
 ## Ошибки
 
