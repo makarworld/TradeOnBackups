@@ -2,7 +2,7 @@
 Каждый день в заданное время бот создаёт архив из папок Data, DataBackups, MaFiles и отправляет вам.
 Если что-то случится с сервером вы не потеряете данные о покупках и сможете откатиться к ним в любой момент.
 
-[Пример](https://i.imgur.com/VikYyOd.png)
+![image]([https://i.imgur.com/VikYyOd.png](https://github.com/makarworld/TradeOnBackups/assets/58076271/8ffe8b32-970b-4f98-ade5-1e0ed104dbed))
 
 ## Устновка
 1. Установите python 3.10+
